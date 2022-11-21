@@ -1,0 +1,68 @@
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ex-1, .ex-2, .ex-3, .ex-4, .ex-5, .ex-6, .ex-7, .ex-8 {
+    margin: 20px;
+    padding: 20px;
+    /*width: 300px;*/
+    border: 2px solid gray;
+}
+
+/*№1*/
+.ex-1 input {
+    padding: 10px;
+
+}
+
+.ex-2 textarea {
+    width: 200px;
+    height: 100px;
+    resize: both;
+}
+
+.ex-3 input::placeholder {
+    color: green;
+}
+.ex-4 textarea{
+    width: 200px;
+    height: 100px;
+    resize: both;
+}
+.ex-4 textarea::placeholder {
+    color: green;
+}
+
+.ex-5 div {
+    display: flex;
+    flex-direction: column;
+}
+.ex-5 input{
+    width: 200px;
+    margin-bottom: 20px;
+
+}
+.ex-5 textarea{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.ex-5 input::placeholder, .ex-5 textarea::placeholder{
+    color: green;
+}
+
+
+
+
+
+
+
+

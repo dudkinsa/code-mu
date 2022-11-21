@@ -1,0 +1,35 @@
+/*№1*/
+.parent{
+    display: flex;
+    /*№1*/
+    /*flex-direction: row;*/
+    /*justify-content: flex-end;*/
+
+    /*№2*/
+    /*flex-direction: column;
+    justify-content: flex-end;*/
+
+    /*№3*/
+    /*flex-direction: row-reverse;
+    justify-content: flex-start;*/
+
+    /*№4*/
+    /*flex-direction: row-reverse;
+    justify-content: flex-end;*/
+
+    /*№4*/
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+
+    ;width: 900px;
+    height: 400px;
+    border: 1px solid red;
+    margin: 20px auto;
+}
+
+.child{
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+
+}

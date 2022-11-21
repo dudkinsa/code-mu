@@ -1,0 +1,120 @@
+body, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #585858;
+}
+
+
+.wrapper {
+  margin: 20px auto;
+  border: 1px solid black;
+  padding: 20px;
+  width: 900px;
+  background-color: #8a8787;
+  background-image: url("https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ex-1, .ex-2, .ex-3, .ex-4,
+.ex-5, .ex-6, .ex-7, .ex-8,
+.ex-9, .ex-10 {
+
+  margin: 20px;
+  padding: 20px;
+  /*width: 300px;*/
+  border: 2px solid gray;
+  background-color: #e3dada;
+}
+
+/*div {
+    margin: 40px;
+}*/
+
+/*№1*/
+
+.ex-1 {
+  @ex1: ul;
+
+  @{ex1} {
+    font-size: 20px;
+    color: red;
+  }
+ /* ul {
+    font-size: 20px;
+  }*/
+}
+
+/*№2*/
+
+.ex-2 {
+    @ex2: ul;
+
+    div @{ex2} {
+        font-size: 20px;
+    }
+    /*
+    div ul {
+        font-size: 20px;
+    }*/
+}
+
+/*№3*/
+
+.ex-3 {
+    @ex3: ul;
+
+    div @{ex3} {
+        font-size: 20px;
+    }
+    /*
+div ul {
+	font-size: 20px;
+}
+*/
+}
+
+.ex-4 {
+    @ex4: ul;
+
+    @{ex4} li {
+        font-size: 20px;
+    }
+
+}
+
+.ex-5 {
+
+}
+
+.ex-6 {
+
+}
+
+.ex-7 {
+
+}
+
+.ex-8 {
+
+}
+
+
+.ex-9 {
+
+}
+
+.ex-10 div {
+
+}
+
+
+
+
+
+
+
+

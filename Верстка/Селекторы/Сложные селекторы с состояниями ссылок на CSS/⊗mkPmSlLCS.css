@@ -1,0 +1,24 @@
+/*№1*/
+/*a {
+    color: red;
+}
+a:hover{
+    text-decoration: none;
+}*/
+
+/*№2*/
+/*
+a.zzz {
+    color: red;
+}
+a.zzz:hover {
+    text-decoration: none;
+}*/
+
+/*№3*/
+#block a.zzz {
+    color: red;
+}
+#block a.zzz:hover {
+    text-decoration: none;
+}

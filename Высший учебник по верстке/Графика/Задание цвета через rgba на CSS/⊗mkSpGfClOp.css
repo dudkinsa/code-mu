@@ -1,0 +1,84 @@
+body, h2{
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ex-1, .ex-2, .ex-3, .ex-4, .ex-5, .ex-6, .ex-7, .ex-8 {
+    margin: 20px;
+    padding: 20px;
+    /*width: 300px;*/
+    border: 2px solid gray;
+}
+
+/*№1*/
+.ex-1 .image-1, .ex-1 .image-2{
+    display: inline-block;
+    background-image: url("https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+/*не могу разъединить image. Должна быть картинка а каждом блоке*/
+}
+.ex-1 .block-flex{
+    display: flex;
+}
+.ex-1 .font-text-1{
+    width: 300px;
+    height: 200px;
+    border: 10px solid red;
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align:middle; /*почему то не работает vertical-align*/
+    opacity: 0.7;
+    margin-right: 30px;
+}
+.ex-1 .font-text-2 {
+    width: 300px;
+    height: 200px;
+    border: 10px solid rgba(255, 0, 0, 0.7);
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ex-2 {
+
+}
+
+.ex-3  {
+
+}
+
+.ex-4 {
+
+
+}
+
+.ex-5{
+
+}
+.ex-5{
+
+
+}
+.ex-5{
+
+}
+
+
+
+
+
+
+
+

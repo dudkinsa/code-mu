@@ -1,0 +1,167 @@
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #585858;
+}
+
+
+.wrapper {
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+    width: 900px;
+    background-color: #8a8787;
+    background-image: url("https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ex-1, .ex-2, .ex-3, .ex-4,
+.ex-5, .ex-6, .ex-7, .ex-8,
+.ex-9, .ex-10 {
+
+    margin: 20px;
+    padding: 20px;
+    /*width: 300px;*/
+    border: 2px solid gray;
+    background-color: #e3dada;
+}
+
+div {
+    margin: 40px;
+}
+
+/*№1*/
+.ex-1 .menu {
+    display: flex;
+}
+
+.ex-1 a {
+    padding: 15px;
+    border: 1px solid blue;
+    margin-right: 5px;
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+    transition: transform 1s;
+}
+
+.ex-1 a:hover, .ex-1 .active {
+    transform: rotate(10deg) scale(1.1);
+}
+
+/*№2*/
+.ex-2 .menu {
+    display: flex;
+    transform: rotate(-5deg);
+}
+
+.ex-2 a {
+    padding: 15px;
+    border: 1px solid blue;
+    margin-right: 5px;
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+    transition: transform 1s;
+}
+
+.ex-2 a:hover {
+    transform: scale(1.2) skew(-5deg)
+}
+
+/*№3*/
+
+.ex-3 .menu {
+    display: flex;
+}
+
+.ex-3 a {
+    padding: 15px;
+    border: 1px solid blue;
+    margin-right: 5px;
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+    transform: skew(-5deg);
+
+}
+
+.ex-3 a:hover {
+    transform: scale(1.4) skew(-5deg);
+    transition: transform 400ms;
+    z-index: 1;
+}
+
+
+.ex-4 .contact {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    top: 220px;
+    left: 640px;
+}
+
+.ex-4 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: blue;
+    padding: 10px 40px;
+    border: 1px solid grey;
+    transform: rotate(90deg);
+
+
+
+}
+
+.ex-4 a:hover {
+    border: 1px solid black;
+}
+
+
+.ex-4 .text {
+    width: 300px;
+    text-align: justify;
+    margin: 20px auto;
+}
+
+.ex-5 .text {
+    width: 300px;
+    text-align: justify;
+    margin: 20px auto;
+    transform: skew(-5deg);
+}
+
+.ex-6 div {
+
+}
+
+.ex-7 div {
+
+}
+
+.ex-8 div {
+
+}
+
+
+.ex-9 div {
+
+}
+
+.ex-10 div {
+
+}
+
+
+
+
+
+
+
+

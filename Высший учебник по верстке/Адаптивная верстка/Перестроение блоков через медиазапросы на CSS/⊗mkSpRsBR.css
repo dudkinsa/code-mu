@@ -1,0 +1,331 @@
+body, h2 {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #585858;
+}
+
+
+.wrapper {
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+    width: 900px;
+    background-color: #8a8787;
+    background-image: url("https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ex-1, .ex-2, .ex-3, .ex-4,
+.ex-5, .ex-6, .ex-7, .ex-8,
+.ex-9, .ex-10 {
+
+    margin: 20px;
+    padding: 20px;
+    /*width: 300px;*/
+    border: 2px solid gray;
+    background-color: #e3dada;
+
+}
+
+/*div {
+    margin: 40px;
+}*/
+
+/*№1*/
+
+.ex-1 .parent {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+.ex-1 .elem1, .ex-1 .elem2 {
+    height: 50px;
+
+}
+
+.ex-1 .child {
+    box-sizing: border-box;
+    border: 1px solid green;
+
+}
+
+@media (min-width: 500px) {
+
+    .ex-1 .child {
+        margin-right: 10px;
+    }
+
+    .ex-1 .elem1 {
+        width: 69%;
+        height: 50px;
+    }
+
+    .ex-1 .elem2 {
+        width: 30%;
+        height: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .ex-1 .parent {
+        flex-direction: column;
+    }
+
+    .ex-1 .elem1, .ex-1 .elem2 {
+        margin-bottom: 10px;
+    }
+
+    .ex-1 .elem1 {
+        width: 50%;
+    }
+
+    .ex-1 .elem2 {
+        width: 50%;
+    }
+
+}
+
+/*№2*/
+
+.ex-2 .parent {
+    display: flex;
+    margin: 50px auto;
+    width: 90%;
+    height: 200px;
+}
+
+.ex-2 .child {
+    box-sizing: border-box;
+    border: 1px solid green;
+}
+
+.ex-2 .elem1, .ex-2 .elem2, .ex-2 .elem3 {
+    height: 50px;
+
+}
+
+.ex-2 .elem1 {
+    width: 59%;
+}
+
+.ex-2 .elem2 {
+    width: 20%;
+}
+
+.ex-2 .elem3 {
+    width: 20%;
+}
+
+@media (min-width: 500px) {
+    .ex-2 .elem1, .ex-2 .elem2 {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .ex-2 .parent {
+        flex-direction: column;
+    }
+
+    .ex-2 .elem1, .ex-2 .elem2 {
+        margin-bottom: 10px;
+    }
+
+    .ex-2 .elem1 {
+        width: 50%;
+    }
+
+    .ex-2 .elem2 {
+        width: 50%;
+    }
+
+    .ex-2 .elem3 {
+        width: 50%;
+    }
+}
+
+/*№3*/
+
+.ex-3 .parent {
+    display: flex;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.ex-3 .child {
+    box-sizing: border-box;
+    border: 1px solid green;
+}
+
+.ex-3 .elem1, .ex-3 .elem2, .ex-3 .elem3 {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+@media (min-width: 900px) {
+    .ex-3 .parent {
+        justify-content: space-between;
+    }
+
+    .ex-3 .elem1 {
+        width: 58%;
+    }
+
+    .ex-3 .elem2 {
+        width: 20%;
+    }
+
+    .ex-3 .elem3 {
+        width: 20%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+    .ex-3 .parent {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .ex-3 .elem1 {
+        width: 100%;
+    }
+
+    .ex-3 .elem2 {
+        width: 49.5%;
+    }
+
+    .ex-3 .elem3 {
+        width: 49.5%;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .ex-3 .parent {
+        flex-direction: column;
+    }
+
+    .ex-3 .elem1 {
+        width: 50%;
+    }
+
+    .ex-3 .elem2 {
+        width: 50%;
+    }
+
+    .ex-3 .elem3 {
+        width: 50%;
+    }
+
+}
+
+.ex-4 .parent {
+    display: flex;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.ex-4 .child {
+    box-sizing: border-box;
+    border: 1px solid green;
+}
+
+.ex-4 .elem1, .ex-4 .elem2, .ex-4 .elem3 {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 900px) {
+    .ex-4 .parent {
+        justify-content: space-between;
+    }
+
+    .ex-4 .elem1 {
+        width: 20%;
+    }
+
+    .ex-4 .elem2 {
+        width: 58%;
+    }
+
+    .ex-4 .elem3 {
+        width: 20%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+    .ex-4 .parent {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .ex-4 .elem1 {
+        width: 100%;
+    }
+
+    .ex-4 .elem2 {
+        width: 49.5%;
+    }
+
+    .ex-4 .elem3 {
+        width: 49.5%;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .ex-4 .parent {
+        flex-direction: column;
+    }
+
+    .ex-4 .elem1 {
+        width: 50%;
+    }
+
+    .ex-4 .elem2 {
+        width: 50%;
+    }
+
+    .ex-4 .elem3 {
+        width: 50%;
+    }
+
+}
+
+.ex-5 {
+
+}
+
+.ex-6 div {
+
+}
+
+.ex-7 div {
+
+}
+
+.ex-8 div {
+
+}
+
+
+.ex-9 div {
+
+}
+
+.ex-10 div {
+
+}
+
+
+
+
+

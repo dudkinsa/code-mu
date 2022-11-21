@@ -1,0 +1,73 @@
+    /*№1*/
+/*.menu{
+    display: flex;
+    padding: 30px;
+}
+
+.menu a{
+    box-sizing: border-box;
+    padding: 10px 25px;
+    border: 1px solid #16a177;
+    background-color: #16a177;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-family: Arial sans-serif;
+    font-size: 16px;
+}
+.menu a:active, .menu a:hover, .menu .active{
+    background-color: white;
+    color: #16a177;
+    border: 1px solid #16a177;
+}*/
+
+    /*№2*/
+    /*.menu{
+        display: flex;
+        padding: 30px;
+        flex-direction: column;
+        width: 300px;
+
+    }
+
+    .menu a{
+        box-sizing: border-box;
+        padding: 10px 25px;
+        border: 1px solid #16a177;
+        background-color: #16a177;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 10px;
+        font-family: Arial sans-serif;
+        font-size: 16px;
+    }
+    .menu a:active, .menu a:hover, .menu .active{
+        background-color: white;
+        color: #16a177;
+        border: 1px solid #16a177;
+    }
+    */
+
+    /*№3*/
+    .menu{
+        display: flex;
+        padding: 30px;
+        background-color: #16a177;
+    }
+
+    .menu a{
+        box-sizing: border-box;
+        padding: 10px 25px;
+        border: 1px solid #16a177;
+        background-color: #16a177;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 10px;
+        font-family: Arial sans-serif;
+        font-size: 16px;
+    }
+    .menu a:active, .menu a:hover, .menu .active{
+        background-color:  #16785c;
+        color:white;
+        border: 1px solid #16785c;
+    }

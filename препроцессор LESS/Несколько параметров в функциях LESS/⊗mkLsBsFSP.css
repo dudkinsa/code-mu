@@ -1,0 +1,72 @@
+body,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #585858;
+}
+.wrapper {
+  margin: 20px auto;
+  border: 1px solid black;
+  padding: 20px;
+  width: 900px;
+  background-color: #8a8787;
+  background-image: url("https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ex-1,
+.ex-2,
+.ex-3,
+.ex-4,
+.ex-5,
+.ex-6,
+.ex-7,
+.ex-8,
+.ex-9,
+.ex-10 {
+  margin: 20px;
+  padding: 20px;
+  /*width: 300px;*/
+  border: 2px solid gray;
+  background-color: #e3dada;
+}
+/*№1*/
+.ex-1 {
+  font-size: 20px;
+  line-height: 15px;
+}
+/*№2 №3*/
+.ex-2 .block-wrapper {
+  height: 500px;
+}
+.box-green,
+.box-red,
+.box-blue,
+.box-yellow {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.box-green {
+  background: green;
+  top: 100px;
+  left: 250px;
+}
+.box-red {
+  background: red;
+  top: 100px;
+  right: -150px;
+}
+.box-blue {
+  background: blue;
+  bottom: 200px;
+  left: 150px;
+}
+.box-yellow {
+  background: yellow;
+  bottom: 200px;
+  right: -50px;
+}
+/*# sourceMappingURL=⊗mkLsBsFSP.css.map */

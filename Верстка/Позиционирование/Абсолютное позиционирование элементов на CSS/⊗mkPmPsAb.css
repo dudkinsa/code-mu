@@ -1,0 +1,75 @@
+/*№1*/
+/*#elem1, #elem2, #elem3{
+    width: 50px;
+    height: 50px;
+}
+#elem1{
+    position: absolute;
+    border: 1px solid red;
+    top: 30px;
+    left: 30px
+}
+#elem2{
+    position: absolute;
+    border: 1px solid blue;
+    top: 100px;
+    left: 100px
+}
+
+#elem3{
+    position: absolute;
+    border: 1px solid green;
+    top: 170px;
+    left: 170px
+}*/
+/* №2*/
+/*#elem1, #elem2, #elem3{
+    width: 50px;
+    height: 50px;
+    top: 30px;
+}
+#elem1{
+    position: absolute;
+    border: 1px solid red;
+
+    left: 30px
+}
+#elem2{
+    position: absolute;
+    border: 1px solid blue;
+    left: 100px
+}
+
+#elem3{
+    position: absolute;
+    border: 1px solid green;
+    left: 170px
+}*/
+/*№3 №3 */
+#elem1, #elem2, #elem3{
+    width: 50px;
+    height: 50px;
+}
+#elem1{
+    position: absolute;
+    border: 1px solid red;
+    top: 30px;
+    left: 30px;
+    background-color: red;
+
+}
+#elem2{
+    position: absolute;
+    border: 1px solid blue;
+    top: 60px;
+    left: 60px;
+    background-color: blue;
+}
+
+#elem3 {
+    position: absolute;
+    border: 1px solid green;
+    top: 90px;
+    left: 90px;
+    background-color: green;
+}

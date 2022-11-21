@@ -1,0 +1,47 @@
+/*№1*/
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1200px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+.container{
+    display: flex;
+}
+
+.header{
+    height: 250px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.left{
+    width: 300px;
+    margin-right: 30px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.content{
+    width: 680px;
+    height: 680px;
+    margin-right: 30px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.right{
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.footer{
+    height: 100px;
+    border: 1px solid black;
+    padding: 20px;
+}
+

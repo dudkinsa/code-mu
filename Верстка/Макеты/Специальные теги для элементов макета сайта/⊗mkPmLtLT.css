@@ -1,0 +1,166 @@
+/*№1*/
+/*body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 1100px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+#header {
+    display: flex;
+    background-color: #f8aa03;
+    padding: 20px 0;
+    justify-content: left;
+
+
+}
+
+#menu a {
+
+    color: white;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 20px 20px;
+    margin-left: 50px;
+}
+
+#menu a:hover {
+    !* border: 1px solid white;*!
+    background-color: white;
+    color: #f8aa03;
+    padding: 20px 20px;
+    margin-left: 50px;
+
+}
+
+#container {
+    display: flex;
+}
+
+#sidebar {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px 20px 0 20px;
+}
+
+#content {
+    width: 1040px;
+    height: 900px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px 20px 0 0;
+}
+
+#footer{
+    height: 100px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}*/
+
+/*№2*/
+
+/*
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 1100px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+#content{
+    border: 1px solid black;
+    margin: 20px;
+}
+
+#content h1, h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#content .section{
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+    text-align: justify;
+}*/
+
+/*№3*/
+body{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 1100px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+#header{
+    display: flex;
+    background-color: #f8aa03;
+}
+#header #menu{
+    display: flex;
+
+}
+#menu a{
+text-decoration: none;
+    padding: 40px 20px 20px 20px;
+    color: white;
+}
+
+#header #logo{
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+#container{
+    display: flex;
+}
+
+#container #left{
+    width: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px 20px 0 20px;
+}
+
+#container #content{
+    width: 500px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px 20px 0 0;
+}
+
+#container #right{
+    width: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px 20px 0 0;
+}
+
+#content .section{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#content .section:last-child{
+    margin-top: 20px;
+}
+
+#footer{
+    height: 100px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px 20px 20px 20px;
+}

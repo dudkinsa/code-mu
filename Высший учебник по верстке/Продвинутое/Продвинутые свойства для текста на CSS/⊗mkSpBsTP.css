@@ -1,0 +1,61 @@
+/*№1*/
+.ex-1 {
+    letter-spacing: 1px;
+}
+
+/*№2*/
+.ex-2 {
+    letter-spacing: 3px;
+}
+
+/*№3*/
+.ex-3 {
+    letter-spacing: -1px;
+}
+
+/*№4*/
+.ex-4 {
+    word-spacing: 3px;
+}
+
+/*№5*/
+.ex-5 {
+    word-spacing: 0px;
+}
+
+/*№6*/
+.ex-6 {
+    text-transform: uppercase;
+}
+
+/*№7*/
+.ex-7 span {
+    text-transform: uppercase;
+}
+
+/*№8*/
+.ex-8{
+    text-transform: capitalize;
+}
+/*№9*/
+.ex-9{
+    text-align-last: right;
+}
+/*№10*/
+.ex-10{
+    width: 70%;
+    margin: 50px auto;
+}
+.ex-10 p::first-letter{
+    color: red;
+    font-size: 17px;
+    text-align: justify;
+}
+.ex-11{
+    width: 70%;
+    margin: 50px auto;
+}
+.ex-11 p::first-line{
+    font-style: italic;
+    color: red;
+}

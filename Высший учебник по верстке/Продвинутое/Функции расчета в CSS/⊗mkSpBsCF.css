@@ -1,0 +1,65 @@
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ex-1, .ex-2, .ex-3, .ex-4, .ex-5, .ex-6, .ex-7 {
+    margin: 20px;
+    padding: 20px;
+    /*width: 300px;*/
+    border: 2px solid gray;
+}
+
+/*№1*/
+.ex-1 .block-parent{
+    border: 1px solid red;
+}
+.ex-1 .block-child{
+    border: 3px solid gold;
+    width: calc(100% - 100px);
+    height: 200px;
+    margin: 0 auto ;
+}
+/*№2*/
+.ex-2 .block-parent{
+    border: 1px solid red;
+}
+.ex-2 .block-child{
+    border: 3px solid gold;
+    margin: 0 auto;
+    width: calc(50% + 200px);
+    height: 200px;
+}
+
+/*№3*/
+.ex-3 .block-parent{
+    border: 1px solid red;
+}
+.ex-3 .block-child{
+    border: 3px solid gold;
+    margin: 0 auto;
+    width: max(300px, 50%);
+    height: 200px;
+}
+
+/*№4*/
+.ex-4 .block-parent{
+    border: 1px solid red;
+}
+.ex-4 .block-child{
+    border: 3px solid gold;
+    margin: 0 auto;
+    width: min(400px, 30%);
+    height: 200px;
+}
+
+
+
+

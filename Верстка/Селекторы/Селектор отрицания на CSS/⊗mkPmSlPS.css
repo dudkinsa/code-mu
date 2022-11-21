@@ -1,0 +1,63 @@
+/*№1*/
+/*li:first-child{
+    color: red;
+}*/
+/*№2*/
+/*li:last-child{
+    color: green;
+}*/
+/*№3*/
+/*li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: green;
+}*/
+
+/*№4*/
+/*li:nth-child(3){
+    color: red;
+}*/
+
+/*№5*/
+/*li:nth-child(2n-1){
+    color: red;
+}
+li:nth-child(2n){
+    color: green;
+}*/
+
+/*№6*/
+/*
+li:nth-child(3n){
+    color: red;
+}*/
+
+/*№7*/
+/*li:nth-last-child(2){
+    color: red
+}*/
+
+/*№8*/
+/*
+li:only-child{
+    color: red;
+}*/
+
+/*№9*/
+li:nth-child(-n+3){
+    color: black;
+    border: 1px solid red;
+    width: 100px;
+    margin-top: 10px;
+    padding: 5px;
+}
+li:empty{
+    border: 1px solid blue;
+    width: 100px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+

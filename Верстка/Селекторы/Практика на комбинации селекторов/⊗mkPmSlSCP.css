@@ -1,0 +1,95 @@
+/*
+№1
+div p{
+    color: red;
+}*/
+
+/*№2*/
+/*div h2{
+    color: red;
+}*/
+
+/*№3*/
+/*
+#block p{
+    color: red
+}*/
+
+/*№4*/
+/*
+#block h2{
+    color: red;
+}*/
+
+/*№5*/
+/*
+.bbb{
+    color: red;
+}*/
+
+/*№6*/
+/*#block .bbb{color: red}*/
+
+/*№7*/
+/*
+#block p.bbb{
+    color: red;
+}*/
+
+/*№8*/
+/*
+h2.bbb{
+    color: red;
+}*/
+
+/*№9*/
+/*#block p.bbb{
+    color: red;
+}*/
+
+/*№10*/
+/*.bbb, .xxx, .bbb.xxx{
+    color: red;
+}*/
+
+/*№11*/
+/*
+p.bbb, h2.xxx{
+    color: red;
+}
+*/
+
+/*№12*/
+/*#block p.bbb, #block p.xxx{
+    color: red;
+}*/
+
+/*№13*/
+/*
+.fff{
+    color: red;
+}*/
+
+/*№14*/
+/*
+.fff p{
+    color: red;
+}*/
+
+/*№15*/
+/*
+ p.fff{
+    color: red;
+}*/
+
+/*№16*/
+/*
+.fff .bbb{
+    color: red
+}*/
+
+/*№17*/
+/*
+.fff h2.bbb{
+    color: red;
+}*/

@@ -1,0 +1,81 @@
+body, h2{
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ex-1, .ex-2, .ex-3, .ex-4,
+.ex-5, .ex-6, .ex-7, .ex-8,
+.ex-9, .ex-10{
+    margin: 20px;
+    padding: 20px;
+    /*width: 300px;*/
+    border: 2px solid gray;
+}
+div{
+    border: 1px solid black;
+}
+/*№1*/
+.ex-1 div{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(orange, white);
+}
+
+.ex-2 div{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, orange, white);
+}
+
+.ex-3 div{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to left, orange, white);
+}
+
+.ex-4 div{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to left top, red, white);
+}
+
+.ex-5 div{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to left, blue, red);
+}
+
+.ex-6 div{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient( white 0%, white 50%, red 50%, red 100%);
+
+}
+.ex-7 div{
+    
+}
+
+.ex-8 div{
+   
+}
+.ex-9 div{
+    
+}
+.ex-10  div{
+    
+}
+
+
+
+
+
+
+
+

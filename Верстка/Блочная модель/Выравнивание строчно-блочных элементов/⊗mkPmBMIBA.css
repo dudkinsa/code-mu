@@ -1,0 +1,38 @@
+/*№1*/
+/*.parent {
+    padding: 10px 0;
+    border: 1px solid red;
+    text-align: center;
+
+}
+.child {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid green;
+    margin:  50px 0;
+}*/
+/*№2 №3 №4*/
+/*.parent {
+    padding: 10px 10px;
+    border: 1px solid red;
+    margin-right: 10px;
+    text-align: right;
+}
+.child {
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+}*/
+/*№5 №6*/
+.parent {
+    padding: 10px 0;
+    border: 1px solid red;
+    text-align: right;
+}
+.child {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+    text-align: center;
+}

@@ -1,0 +1,55 @@
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ex-1, .ex-2, .ex-3, .ex-4, .ex-5, .ex-6, .ex-7, .ex-8 {
+    margin: 20px;
+    padding: 20px;
+    /*width: 300px;*/
+    border: 2px solid gray;
+}
+
+/*№1*/
+.ex-1 p{
+color: rgb(255 0 0);
+}
+
+.ex-2 h1{
+color: rgb(0 255 0);
+}
+
+.ex-3 h3 {
+    color: rgb(0 0 255);
+}
+
+.ex-4 h3{
+    color: rgb(255 255 0);
+
+}
+
+.ex-5{
+
+}
+.ex-5{
+
+
+}
+.ex-5{
+
+}
+
+
+
+
+
+
+
+

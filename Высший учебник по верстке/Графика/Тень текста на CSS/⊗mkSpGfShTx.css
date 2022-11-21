@@ -1,0 +1,66 @@
+body, h2{
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ex-1, .ex-2, .ex-3, .ex-4,
+.ex-5, .ex-6, .ex-7, .ex-8,
+.ex-9, .ex-10{
+    margin: 20px;
+    padding: 20px;
+    /*width: 300px;*/
+    border: 2px solid gray;
+}
+
+/*№1*/
+.ex-1 p{
+text-shadow: 5px 10px 3px red;
+}
+
+.ex-2 p{
+    text-shadow: 5px 10px green;
+}
+
+.ex-3  p{
+    text-shadow: -10px -15px green;
+}
+
+.ex-4 p{
+    text-shadow: 0 0 5px green;
+}
+
+.ex-5 p{
+    text-shadow:0 -10px   red, 0 10px   green;
+}
+.ex-6 p{
+
+    text-shadow: 3px 3px 3px;
+}
+.ex-7 p{
+    text-shadow: 0 0 4px;
+}
+
+.ex-8 p{
+    text-shadow: 0 0 4px red;
+}
+.ex-9 p{
+    text-shadow: -8px -10px 2px blue, 8px 10px 2px red;
+}
+.ex-10 p{
+    text-shadow: 14px 20px  1px red, 8px 10px  1px blue;
+}
+
+
+
+
+
+
+
+

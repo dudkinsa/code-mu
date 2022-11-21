@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*№1*/
+.ex-1 {
+
+}
+
+/*№2*/
+.ex-2 {
+    width: 200px;
+    border: 1px solid red;
+    white-space: nowrap;
+}
+
+/*№3*/
+
+.ex-3 .pre {
+    white-space: pre;
+}
+
+.ex-3 .pre {
+    white-space: pre-wrap;
+}
+
+.ex-3 .pre-line {
+    white-space: pre-line;
+}
+
+/*№4*/
+.ex-4 {
+    margin-top: 30px;
+    white-space: pre;
+}
+/*5 и 6 задание не работает*/
+/*№5*/
+.ex-5 {
+    tab-size: 4;
+    white-space: pre;
+
+}
+
+/*№6*/
+.ex-6 {
+    tab-size: 2;
+    white-space: pre;
+}
+
+/*№7*/
+.ex-7 {
+width: 200px;
+    height: 200px;
+   white-space: normal;/*№8*/
+
+    border: 1px solid red;
+    /*overflow: scroll;*/
+    overflow: hidden; /*№9*/
+    margin-left: 50px;
+    padding: 20px;
+}
+
+
+/*№10*/
+.ex-7:hover{
+   height: 600px;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+/*№11*/
+.ex-11 p{
+
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    border: 5px solid gray;
+   /* overflow: scroll;*/ /*№12*/
+    /*overflow: hidden;*/ /*№13*/
+   /* overflow-x: hidden;*/ /*№14*/
+    overflow-y: hidden; /*№15*/
+}
+/*№17*/
+.ex-16 p{
+    width: 200px;
+    border: 5px solid gray;
+    white-space: nowrap;
+    /*overflow-y: scroll;*//*№17*/
+    overflow-y: hidden;/*№18*/
+    text-overflow: ellipsis; /*№19*/
+}
+/*№20*/
+.ex-16 p:hover{
+    white-space: normal;
+    height: 200px;
+}
+
+/*№21*/
+.ex-21{
+    margin-top: 30px;
+    border: 5px solid gray;
+    width: 200px;
+    height: 300px;
+
+}
+.ex-21 .word-break{
+    word-break: break-all;
+}
+.ex-21 .overflow-wrap{
+    overflow-wrap: break-word;
+}
+
+/*№22*/
+/*не работает перенос с русскими словаим.
+с английскими словами перегос работает*/
+.ex-22 p{
+    margin-top: 30px;
+    border: 5px solid gray;
+    width: 300px;
+    height: 300px;
+    hyphens: auto;
+}
+
+

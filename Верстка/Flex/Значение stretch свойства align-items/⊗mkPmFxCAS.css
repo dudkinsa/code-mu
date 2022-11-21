@@ -1,0 +1,46 @@
+/*№1*/
+.parent {
+    display: flex;
+
+    /*№1*/
+    /*flex-direction: row;
+    justify-content: center;
+    align-items: stretch;*/
+
+    /*№2*/
+    /*flex-direction: column;
+    justify-content: center;
+    align-items: stretch;*/
+
+    /*№3*/
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+
+    /*№4*/
+
+
+    /*№5*/
+
+
+
+    /*№6*/
+
+
+    /*№7*/
+
+
+    width: 900px;
+    height: 400px;
+    padding: 0;
+    border: 1px solid red;
+    margin: 20px auto;
+}
+
+.child {
+    /*width: 120px;*/ /*№2*/ /*№3*/
+    height: 60px;
+    /*height: 60px;*/ /*№1*/
+    border: 1px solid green;
+
+}

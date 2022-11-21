@@ -1,0 +1,156 @@
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #585858;
+}
+
+
+.wrapper {
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+    width: 900px;
+    background-color: #8a8787;
+    background-image: url("https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ex-1, .ex-2, .ex-3, .ex-4,
+.ex-5, .ex-6, .ex-7, .ex-8,
+.ex-9, .ex-10 {
+
+    margin: 20px;
+    padding: 20px;
+    /*width: 300px;*/
+    border: 2px solid gray;
+    background-color: #e3dada;
+}
+
+div {
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+/*№1*/
+.ex-1 div {
+    width: 200px;
+    height: 100px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.ex-1 div:hover {
+    background-color: red;
+}
+
+.ex-2 div {
+    width: 200px;
+    height: 100px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.ex-2 div:hover {
+    background-color: red;
+    color: white;
+}
+
+.ex-3 div {
+    width: 200px;
+    height: 100px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.ex-3 div:hover {
+    width: 816px;
+}
+
+.ex-4 div {
+    width: 200px;
+    height: 100px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+
+}
+
+.ex-4 div:hover {
+    margin-left: 150px;
+    width: 500px;
+}
+
+.ex-5 div {
+    width: 200px;
+    height: 100px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 3s;
+}
+
+.ex-5 div:hover {
+    width: 500px;
+}
+
+.ex-6 div {
+    width: 200px;
+    height: 100px;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.2, -0.4, 0, 0.81);
+}
+
+.ex-6 div:hover {
+    width: 500px;
+}
+
+.ex-7 input {
+    border: 1px solid black;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.ex-7 input:focus {
+    border: 1px solid blue;
+    color: blue;
+    width: 500px;
+    outline: none;
+}
+
+.ex-8 input {
+    border: 1px solid black;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.ex-8 input:focus {
+    box-shadow: 0 0 5px blue;
+    color: blue;
+    outline: none;
+}
+
+.ex-9 div {
+
+}
+
+.ex-10 div {
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+/*№1* №2*/
+div {
+    width: 400px;
+    border: 1px solid red;
+    text-align: justify;
+    padding: 20px;
+    margin: 0 auto;
+
+}
+
+.img-1{
+    float: left;
+    margin: 0 20px 0 0;
+}
+.img-2{
+    float: right;
+    margin: 20px 0 0 20px;
+}

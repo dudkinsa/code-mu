@@ -1,0 +1,91 @@
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.ex-1 p{
+    width: 200px;
+    height: 200px;
+    border: 2px solid gray;
+    /*overflow: visible;*/ /*№1*/
+    /*overflow: scroll;*/ /*№2*/
+    overflow-y: hidden; /*№3*/
+}
+/*№4*/
+.ex-1 p:hover{
+    width: 200px;
+    height: 300px;
+    border: 2px solid gray;
+}
+
+.ex-5 {
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+    /*overflow: visible;*/ /*№5*/
+    /*overflow: scroll;*//*№6*/
+    /*overflow: hidden;*//*№7*/
+    overflow-x: hidden; /*№8*/
+}
+/*№9*/
+.ex-9 p{
+    width: 150px;
+    height: 150px;
+    border: 2px solid gray;
+    overflow-y: auto;
+}
+/*№10*/
+#ex-10 {
+
+    white-space: nowrap;/*№10*/
+    border: 1px solid red;
+    width: 200px;
+    /*overflow-x: scroll;*//*№11*/
+    overflow-x: hidden; /*№12*/
+    text-overflow: ellipsis; /*№13*/
+}
+/*№14*/
+#ex-10:hover{
+    width: 200px;
+    height: 300px;
+    white-space: normal;
+
+}
+
+/*№15*/
+.ex-15{
+    display: flex;
+}
+.ex-15 h2{
+    text-align: center;
+
+}
+.ex-15 .word-break, .ex-15 .overflow-wrap{
+    border: 2px solid gray;
+    width: 300px;
+    height: 300px;
+    margin: 50px 0 50px 50px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.word-break p{
+    word-break: break-all;
+}
+.overflow-wrap p {
+    overflow-wrap: break-word;
+}
+
+/*№16*/
+.ex-16{
+    width: 300px;
+    padding: 30px;
+    border: 2px solid gray;
+}
+.ex-16 p{
+    hyphens: auto;
+}

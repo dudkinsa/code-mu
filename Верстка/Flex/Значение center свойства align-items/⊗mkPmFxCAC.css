@@ -1,0 +1,50 @@
+/*№1*/
+.parent {
+    display: flex;
+    /*№1*/
+    /*flex-direction: row;
+    justify-content: center;
+    align-items: center;*/
+
+    /*№2*/
+    /*flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;*/
+
+    /*№3*/
+    /*flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;*/
+
+    /*№4*/
+   /* flex-direction: row;
+    justify-content: space-between;
+    align-items: center;*/
+
+    /*№5*/
+    /*flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+
+
+    /*№6*/
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+    /*№7*/
+
+
+    width: 900px;
+    height: 400px;
+    padding: 0;
+    border: 1px solid red;
+    margin: 20px auto;
+}
+
+.child {
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+
+}

@@ -1,0 +1,189 @@
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #585858;
+}
+
+
+.wrapper {
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+    width: 900px;
+    background-color: #8a8787;
+    background-image: url("https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ex-1, .ex-2, .ex-3, .ex-4,
+.ex-5, .ex-6, .ex-7, .ex-8,
+.ex-9, .ex-10 {
+
+    margin: 20px;
+    padding: 20px;
+    /*width: 300px;*/
+    border: 2px solid gray;
+    background-color: #e3dada;
+}
+
+div {
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+/*№1*/
+.ex-1 div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+.ex-1 div:hover{
+    transition: 1s ease;
+    transition-property: transform;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+
+/*№2*/
+.ex-2{
+    height: 250px;
+}
+.ex-2 div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+.ex-2 div:hover{
+    transform: rotate(45deg);
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transform-origin: bottom left;
+    transition-property: transform;
+}
+
+/*№3*/
+.ex-3{
+    height: 250px;
+
+}
+.ex-3 div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-left: 50px;
+}
+.ex-3 div:hover{
+    transform: rotate(45deg);
+    transition-duration: 1s;
+    transform-origin: center center;
+    transition-property: transform;
+}
+
+.ex-4 {
+    height: 250px;
+}
+.ex-4 div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.ex-4 div:hover {
+    transform: rotate(-45deg);
+    transition-property: transform;
+    transition-duration: 1s;
+    transform-origin: top right;
+
+}
+
+
+.ex-5 {
+    height: 250px;
+}
+.ex-5 div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.ex-5 div:hover{
+    transition-duration: 1s;
+    transition-property: transform;
+    transform: scale(1.5);
+    transform-origin: bottom right;
+}
+.ex-6 {
+    height: 250px;
+}
+.ex-6 div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.ex-6 div:hover{
+    transform: scale(1.5);
+    transition-duration: 1s;
+    transition-property: transform;
+    transform-origin: top right;
+}
+
+.ex-7 {
+    height: 250px;
+}
+.ex-7 div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.ex-7 div:hover{
+    transition-duration: 1s;
+    transform: skew(45deg);
+    transition-property: transform;
+    transform-origin: bottom;
+
+}
+
+.ex-8 {
+    height: 250px;
+}
+.ex-8 div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.ex-8 div:hover{
+    transition-duration: 1s;
+    transform: skew(45deg);
+    transition-property: transform;
+    transform-origin: top;
+
+}
+
+.ex-9 div {
+
+}
+
+.ex-10 div {
+
+}
+
+
+
+
+
+
+
+
