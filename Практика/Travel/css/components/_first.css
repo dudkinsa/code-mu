@@ -4,4 +4,10 @@
   background-position: center;
   background-size: cover;
 }
+.logo__title {
+  font-family: Magra, sans-serif;
+  font-size: 32px;
+  line-height: 39px;
+  color: var(--white-color);
+}
 /*# sourceMappingURL=_first.css.map */

@@ -1,4 +1,4 @@
-/*! _normalize.css v8.0.1 | MIT License | github.com/necolas/_normalize.css */
+/*! _normalize.less v8.0.1 | MIT License | github.com/necolas/_normalize.less */
 /* Document
    ========================================================================== */
 /**
@@ -303,4 +303,4 @@ template {
 [hidden] {
   display: none;
 }
-/*# sourceMappingURL=_normalize.css.map */
+/*# sourceMappingURL=_normalize.less.map */
