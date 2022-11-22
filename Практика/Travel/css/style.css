@@ -311,9 +311,24 @@ template {
   font-weight: 600;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Red Hat Text';
+  src: url('../fonts/RedHatText-VariableFont_wght.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aleo-Regular';
+  src: url('../fonts/Aleo-Regular.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
 :root {
   --white-color: #fff;
   --black-color: #000;
+  --nocturnal-color: #0d606f;
 }
 html {
   box-sizing: border-box;
@@ -354,8 +369,8 @@ img {
   max-width: 100%;
 }
 .container {
-  max-width: 1500px;
-  padding: 0 30px;
+  max-width: 1440px;
+  padding: 0;
   margin: 0 auto;
 }
 .site-container {
@@ -377,12 +392,13 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--white-color);
+  padding: 122px 428px 228px 120px;
 }
-.logo__title {
-  font-family: Magra, sans-serif;
-  font-size: 32px;
-  line-height: 39px;
-  color: var(--white-color);
+.first__title {
+  font-family: 'Aleo-Regular', sans-serif;
+  font-size: 80px;
+  line-height: 96px;
+  color: #FFFFFF;
 }
 .header {
   margin-top: 0;
@@ -399,7 +415,7 @@ img {
 .header__container {
   justify-content: space-between;
   align-items: center;
-  margin: 0 100px;
+  margin: 0 120px;
 }
 .logo {
   display: flex;
@@ -415,7 +431,33 @@ img {
   height: 30px;
   margin-right: 6px;
 }
-.nav__item:not(:last-child) {
-  margin-right: 42px;
+.logo__title {
+  font-family: Magra, sans-serif;
+  font-size: 32px;
+  line-height: 39px;
+  padding: 0;
+  color: var(--white-color);
+}
+.nav__link {
+  display: inline-block;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--white-color);
+  margin: 0 30px;
+}
+/*
+.nav__item:not(:last-child){
+	margin: 0 42px;
+}
+*/
+.nav__list {
+  text-align: center;
+}
+.header__login {
+  padding: 10px 30px;
+  background: var(--nocturnal-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 2px 3px rgba(13, 96, 111, 0.16);
 }
 /*# sourceMappingURL=style.css.map */
