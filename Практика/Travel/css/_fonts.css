@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Magra-Regular';
+  src: url('../fonts/Magra-Regular.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Red Hat Text';
+  src: url('../fonts/RedHatText-VariableFont_wght.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aleo-Regular';
+  src: url('../fonts/Aleo-Regular.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+l
+/*# sourceMappingURL=_fonts.css.map */
