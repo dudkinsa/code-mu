@@ -375,6 +375,8 @@ img {
   background-image: url("../image/garrett-parker-DlkF4-dbCOU-unsplash 1.jpg");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--white-color);
 }
 .logo__title {
   font-family: Magra, sans-serif;
@@ -391,12 +393,12 @@ img {
   z-index: 100;
   background: rgba(242, 120, 92, 0.7);
   color: var(--white-color);
+  padding-top: 25px;
+  padding-bottom: 34px;
 }
 .header__container {
   justify-content: space-between;
   align-items: center;
-  padding-top: 35px;
-  padding-bottom: 34px;
   margin: 0 100px;
 }
 .logo {
@@ -411,6 +413,7 @@ img {
   background-repeat: no-repeat;
   width: 30px;
   height: 30px;
+  margin-right: 6px;
 }
 .nav__item:not(:last-child) {
   margin-right: 42px;
