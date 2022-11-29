@@ -1,6 +1,5 @@
 @import url("_variables.css");
 @import url("_vendor.css");
 @import url("_overall.css");
-@import url("components/_first.css");
 @import url("components/header.css");
 @import url("_reset.css");
