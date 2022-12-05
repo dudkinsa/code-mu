@@ -105,8 +105,6 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 765px;
-
-
 }
 
 .search {
@@ -361,4 +359,49 @@ a {
 
 .destination-slider .slick-dots li.slick-active button {
     background: #F2785C;
+}
+.find-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 41px;
+
+}
+.find-btn-text{
+    display: flex;
+    border: 1px solid #0d606f;
+    border-radius: 10px;
+    background-color: #0d606f;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 2px 3px rgba(13, 96, 111, 0.16);
+}
+.find-btn__img{
+    margin: 9px 10px 9px 31px;
+}
+.destination__fined-btn{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    margin: 18px 31px 14px 0;
+}
+.travel__title{
+    margin-bottom: 40px;
+}
+.travel__items{
+    margin-top: 40px;
+}
+
+.travel__item{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 40px;
+    margin-bottom: 30px;
+}
+
+
+.travel-inner{
+background-image: url("/image/traval-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+
 }
