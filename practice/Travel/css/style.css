@@ -439,7 +439,7 @@ li{
 
 
 .footer {
-    background-image: url("/image/travel-img.jpg");
+    background-image: url("../image/travel-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
