@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
 .container {
     max-width: 1220px;
     padding: 0 10px;
@@ -32,6 +36,7 @@ a {
 .header__top {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .logo-img {
@@ -100,11 +105,14 @@ a {
 }
 
 .header__content {
-    background-image: url("../image/garrett-parker-DlkF4-dbCOU-unsplash 1.jpg");
-    background-position: center;
+    background-image: url("../image/header-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 765px;
+    position: relative;
+    top:0;
+    left: 0;
+    right: 0;
 }
 
 .search {
@@ -256,6 +264,7 @@ a {
     color: #FFFFFF;
     text-transform: uppercase;
 }
+
 /*Все стили для skick- шпаргалка*/
 /* Слайдер */
 .slick-slider {
@@ -360,48 +369,105 @@ a {
 .destination-slider .slick-dots li.slick-active button {
     background: #F2785C;
 }
-.find-btn{
+
+.button {
     display: flex;
     justify-content: center;
-    margin-bottom: 41px;
 
 }
-.find-btn-text{
+
+.button__text {
     display: flex;
     border: 1px solid #0d606f;
     border-radius: 10px;
     background-color: #0d606f;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 2px 3px rgba(13, 96, 111, 0.16);
 }
-.find-btn__img{
+
+.button__img {
     margin: 9px 10px 9px 31px;
 }
-.destination__fined-btn{
+
+.batton__text-link {
     font-family: 'Red Hat Text', sans-serif;
     font-weight: 500;
     font-size: 24px;
     color: #fff;
     margin: 18px 31px 14px 0;
 }
-.travel__title{
-    margin-bottom: 40px;
-}
-.travel__items{
-    margin-top: 40px;
+
+.destination__button{
+    margin-bottom: 80px;
 }
 
-.travel__item{
+.travel__title {
+    margin-bottom: 40px;
+
+}
+
+.travel__item {
     display: flex;
     justify-content: space-between;
     gap: 0 40px;
-    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+
+.travel__item-img {
+    border-radius: 16px;
+}
+
+.travel__item-title{
+    font-family: 'Aleo';
+    font-weight: 400;
+    font-size: 35px;
+    color: #0D606F;
+    margin-bottom: 24px;
+}
+.travel__item-text{
+    font-family: 'Aleo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+    opacity: 0.8;
+}
+
+.travel__item-link{
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 
-.travel-inner{
-background-image: url("/image/travel-img.jpg");
+.footer {
+    background-image: url("/image/travel-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 40px;
-
 }
+
+.footer__white-bg {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 40px 0 40px 0;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 730px;
+    align-items: center;
+    padding: 14px 0px;
+    margin-left: 470px;
+}
+
+.footer-text{
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
+.social__list{
+    display: flex;
+    gap: 0 20px;
+}
+
+
